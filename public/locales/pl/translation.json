@@ -1,0 +1,48 @@
+{
+  "user_form": {
+    "steps": {
+      "personal": "dane osobowe",
+      "address": "dane adresowe",
+      "details": "coś o sobie i zgody"
+    },
+    "name": "imie",
+    "surname": "nazwisko",
+    "pesel": "PESEL",
+    "email": "email",
+    "date": "jakaś data",
+    "address": "adres",
+    "street": "ulica",
+    "place": "miejscowość",
+    "postal_code": "kod pocztowy",
+    "post_office": "poczta",
+    "icecream": "ulubione lody",
+    "icecreams": {
+      "vanilla": "wanilia",
+      "chocolate": "czekodala",
+      "raspberry": "malina"
+    },
+    "tshirt_size": "rozmiar koszulki",
+    "tshirt_sizes": {
+      "small": "mały",
+      "medium": "średni",
+      "large": "duży"
+    },
+    "consent_1": "zgoda 1",
+    "consent_2": "zgoda 2",
+    "consent_3": "zgoda 3"
+  },
+  "validation": {
+    "required": "pole jest wymagane",
+    "pesel": "niepoprawny pesel",
+    "email": "niepoprawny email"
+  },
+  "actions": {
+    "next": "Dalej",
+    "back": "Cofnij",
+    "send": "Wyślij"
+  },
+  "routing": {
+    "user_details": "szczegóły użytkownika",
+    "user_form": "formularz użytkownika"
+  }
+}

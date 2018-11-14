@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import {withNamespaces} from "react-i18next";
 
-export class UserDetails extends Component {
+class UserDetails extends Component {
     render() {
+        const {t} = this.props;
         return (
-            'user details'
-        );
+            <div>{t('routing.user_form')}</div>
+        )
     }
 }
+
+export default withNamespaces()(UserDetails)

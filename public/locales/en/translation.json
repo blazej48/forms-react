@@ -1,0 +1,48 @@
+{
+  "user_form": {
+    "steps": {
+      "personal": "personal data",
+      "address": "address",
+      "details": "something about yourself and consents"
+    },
+    "name": "name",
+    "surname": "second name",
+    "pesel": "PESEL",
+    "email":"email",
+    "date": "a date",
+    "address": "address",
+    "street":"street",
+    "place":"place",
+    "postal_code":"postal code",
+    "post_office":"post office",
+    "icecream":"favourite icecreams",
+    "icecreams": {
+      "vanilla": "vanilla",
+      "chocolate": "chocolate",
+      "raspberry": "raspberry"
+    },
+    "tshirt_size":"tshirt size",
+    "tshirt_sizes": {
+      "small": "small",
+      "medium": "medium",
+      "large": "large"
+    },
+    "consent_1":"consent 1",
+    "consent_2":"consent 2",
+    "consent_3":"consent 3"
+  },
+  "validation":{
+    "required": "this field is required",
+    "pesel": "incorrect pesel",
+    "email": "incorect email"
+  },
+  "actions": {
+    "next": "Next",
+    "back": "Back",
+    "send": "Send"
+  },
+  "routing": {
+    "user_details": "user details",
+    "user_form": "user form"
+  }
+}
